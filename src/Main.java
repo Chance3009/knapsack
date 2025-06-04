@@ -43,7 +43,7 @@ public class Main {
             new Item("Vapur Bottle 1L", 1, 41)
         };
 
-        int capacity = 4000; 
+        int capacity = 7000; // Switch 4000 & 7000 for comparison 
 
         System.out.println("Dynamic Programming Solution:");
         DPKnapsack dp = new DPKnapsack(items, capacity);
